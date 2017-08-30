@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Essays</title>
+ <link href="http://AxOpus.github.io/atom.xml" rel="self"/>
+ <link href="http://AxOpus.github.io"/>
+ <updated>2017-08-14T22:56:53+01:00</updated>
+ <id>http://AxOpus.github.io</id>
+ <author>
+   <name>A D</name>
+   <email>blah@email.test</email>
+ </author>
+
+ 
+ <entry>
+   <title>Blah Post</title>
+   <link href="http://AxOpus.github.io/lessons/2017/08/09/blah-post"/>
+   <updated>2017-08-09T00:00:00+01:00</updated>
+   <id>http://AxOpus.github.io/lessons/2017/08/09/blah-post</id>
+   <content type="html">
+&lt;h2 id=&quot;i-danny-h2&quot;&gt;I, Danny H2&lt;/h2&gt;
+&lt;p&gt;Love the boab, consectetur adipiscing elit. Curabitur at volutpat ante. Nulla est arcu, luctus quis tortor venenatis, finibus vestibulum urna. Sed et lacus sed nulla dapibus aliquam varius vel eros. Aenean non blandit justo, ac lobortis est. Nullam ac elit at diam facilisis venenatis vitae vitae ex. Mauris mauris turpis, feugiat non tellus in, sagittis ultrices libero. Sed tristique neque ullamcorper, maximus justo sed, dictum ipsum. Quisque ut elit in eros molestie tempor non ut orci. Sed vulputate, ligula at gravida malesuada, mi quam dictum turpis, eu porta erat urna nec quam. Duis iaculis gravida urna ut pellentesque. Integer a nisi ut leo ornare ultricies at sed neque. Suspendisse potenti. Suspendisse sem lorem, cursus vel condimentum et, dapibus in lectus. Sed vestibulum turpis et ante tristique sollicitudin. Ut ornare malesuada diam, non sollicitudin metus vulputate non.&lt;/p&gt;
+
+&lt;p&gt;This is an unordered list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an ordered list:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a table:&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;#&lt;/th&gt;
+        &lt;th&gt;First Name&lt;/th&gt;
+        &lt;th&gt;Last Name&lt;/th&gt;
+        &lt;th&gt;Username&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;John&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Ghost&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;Jim&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Toast&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;Peter&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Roast&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;caption&gt;Table 1: A Table&lt;/caption&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is an image:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/main_man.jpg&quot; class=&quot;center-block img-responsive&quot; alt=&quot;A handsome man&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-center&quot;&gt;Image 1. A handsome man&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Adding hyperlinks is &lt;a href=&quot;https://www.google.com&quot;&gt;easy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As is adding block quotes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam pulvinar vel augue in imperdiet. Duis pulvinar et nisi non auctor. Praesent a tristique ipsum, non viverra leo. Etiam et pellentesque velit, ac eleifend massa. Nullam et ligula quis ante euismod vulputate. Fusce pharetra velit vel fermentum vestibulum. Suspendisse in finibus erat. Integer sit amet nibh sed elit elementum pretium sed dignissim erat. Nulla convallis libero ut sodales efficitur. Mauris nisl quam, ornare quis ligula in, blandit placerat dolor. Vivamus id egestas nisi. Aliquam iaculis iaculis purus, ac interdum ligula lacinia in. Nullam metus diam, fermentum id est sit amet, rhoncus tincidunt diam. Morbi tincidunt erat sem, scelerisque ultricies velit accumsan in.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Adding YouTube videos is easy:&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 text-center&quot;&gt;
+  &lt;iframe id=&quot;ytplayer&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&amp;amp;origin=http://example.com&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;heading-h3&quot;&gt;Heading H3&lt;/h3&gt;
+
+&lt;p&gt;Nullam ultrices felis eget mattis eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eget venenatis lectus. Suspendisse justo est, laoreet quis fermentum vel, tincidunt in neque. Suspendisse elementum, ante quis finibus bibendum, dolor magna vestibulum ipsum, eu finibus quam massa at erat. Vivamus sit amet ante mauris. Aliquam vitae arcu eleifend, venenatis tellus sed, suscipit felis. Sed dictum commodo aliquam. Praesent vel semper tellus.&lt;/p&gt;
+
+&lt;h4 id=&quot;heading-h4&quot;&gt;Heading H4&lt;/h4&gt;
+
+&lt;p&gt;Nam posuere, nisl et vulputate mattis, leo eros tincidunt dui, et vulputate lorem nulla in nibh. Nullam magna lorem, consequat ac rhoncus quis, porttitor nec sem. Proin eleifend, justo ut vulputate ultrices, sem felis rhoncus enim, sit amet gravida purus urna eu turpis. Nulla id ultrices nunc. Nulla ornare in risus ac mollis. In sodales tortor ac dolor egestas dignissim. Morbi ac iaculis sapien. Maecenas finibus sollicitudin ligula sed efficitur.&lt;/p&gt;
+
+&lt;h5 id=&quot;heading-h5&quot;&gt;Heading H5&lt;/h5&gt;
+
+&lt;p&gt;Fusce commodo sit amet orci et pulvinar. Aenean interdum urna sit amet tempor lobortis. Nulla tristique, urna a condimentum suscipit, odio erat rutrum diam, nec convallis massa nisl a mi. Phasellus in lobortis erat. In ut odio sit amet sapien consectetur dignissim. In feugiat luctus massa, at fermentum sem sagittis id. Nam fermentum eu purus ut ultricies. Maecenas vitae libero quis magna maximus pretium. Etiam tempor lectus ante, sed maximus tortor suscipit sit amet. Vestibulum pharetra, magna a varius pellentesque, lectus magna scelerisque nulla, non faucibus sapien sapien a lorem. Mauris vel elit id orci congue luctus ac vitae ante. Nulla vehicula magna augue, eget dapibus dui consectetur sit amet.&lt;/p&gt;
+
+&lt;h6 id=&quot;heading-h6&quot;&gt;Heading H6&lt;/h6&gt;
+
+&lt;p&gt;Integer a purus vel lorem faucibus sollicitudin. Pellentesque ullamcorper massa sed finibus dictum. Cras aliquet congue convallis. Proin ornare, velit quis consequat viverra, risus tellus dictum nunc, a scelerisque est ex dictum est. Aliquam eleifend massa non tellus posuere feugiat. Donec id convallis sem. In risus lacus, accumsan sit amet pellentesque vel, vulputate ut lectus. Suspendisse potenti.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Third Post</title>
+   <link href="http://AxOpus.github.io/lessons/2017/06/13/third-post"/>
+   <updated>2017-06-13T00:00:00+01:00</updated>
+   <id>http://AxOpus.github.io/lessons/2017/06/13/third-post</id>
+   <content type="html">
+&lt;h2 id=&quot;i-danny-h2&quot;&gt;I, Danny H2&lt;/h2&gt;
+&lt;p&gt;Love the boab, consectetur adipiscing elit. Curabitur at volutpat ante. Nulla est arcu, luctus quis tortor venenatis, finibus vestibulum urna. Sed et lacus sed nulla dapibus aliquam varius vel eros. Aenean non blandit justo, ac lobortis est. Nullam ac elit at diam facilisis venenatis vitae vitae ex. Mauris mauris turpis, feugiat non tellus in, sagittis ultrices libero. Sed tristique neque ullamcorper, maximus justo sed, dictum ipsum. Quisque ut elit in eros molestie tempor non ut orci. Sed vulputate, ligula at gravida malesuada, mi quam dictum turpis, eu porta erat urna nec quam. Duis iaculis gravida urna ut pellentesque. Integer a nisi ut leo ornare ultricies at sed neque. Suspendisse potenti. Suspendisse sem lorem, cursus vel condimentum et, dapibus in lectus. Sed vestibulum turpis et ante tristique sollicitudin. Ut ornare malesuada diam, non sollicitudin metus vulputate non.&lt;/p&gt;
+
+&lt;p&gt;This is an unordered list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an ordered list:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a table:&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;#&lt;/th&gt;
+        &lt;th&gt;First Name&lt;/th&gt;
+        &lt;th&gt;Last Name&lt;/th&gt;
+        &lt;th&gt;Username&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;John&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Ghost&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;Jim&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Toast&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;Peter&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Roast&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;caption&gt;Table 1: A Table&lt;/caption&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is an image:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/main_man.jpg&quot; class=&quot;center-block img-responsive&quot; alt=&quot;A handsome man&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-center&quot;&gt;Image 1. A handsome man&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Adding hyperlinks is &lt;a href=&quot;https://www.google.com&quot;&gt;easy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As is adding block quotes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam pulvinar vel augue in imperdiet. Duis pulvinar et nisi non auctor. Praesent a tristique ipsum, non viverra leo. Etiam et pellentesque velit, ac eleifend massa. Nullam et ligula quis ante euismod vulputate. Fusce pharetra velit vel fermentum vestibulum. Suspendisse in finibus erat. Integer sit amet nibh sed elit elementum pretium sed dignissim erat. Nulla convallis libero ut sodales efficitur. Mauris nisl quam, ornare quis ligula in, blandit placerat dolor. Vivamus id egestas nisi. Aliquam iaculis iaculis purus, ac interdum ligula lacinia in. Nullam metus diam, fermentum id est sit amet, rhoncus tincidunt diam. Morbi tincidunt erat sem, scelerisque ultricies velit accumsan in.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Adding YouTube videos is easy:&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 text-center&quot;&gt;
+  &lt;iframe id=&quot;ytplayer&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&amp;amp;origin=http://example.com&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;heading-h3&quot;&gt;Heading H3&lt;/h3&gt;
+
+&lt;p&gt;Nullam ultrices felis eget mattis eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eget venenatis lectus. Suspendisse justo est, laoreet quis fermentum vel, tincidunt in neque. Suspendisse elementum, ante quis finibus bibendum, dolor magna vestibulum ipsum, eu finibus quam massa at erat. Vivamus sit amet ante mauris. Aliquam vitae arcu eleifend, venenatis tellus sed, suscipit felis. Sed dictum commodo aliquam. Praesent vel semper tellus.&lt;/p&gt;
+
+&lt;h4 id=&quot;heading-h4&quot;&gt;Heading H4&lt;/h4&gt;
+
+&lt;p&gt;Nam posuere, nisl et vulputate mattis, leo eros tincidunt dui, et vulputate lorem nulla in nibh. Nullam magna lorem, consequat ac rhoncus quis, porttitor nec sem. Proin eleifend, justo ut vulputate ultrices, sem felis rhoncus enim, sit amet gravida purus urna eu turpis. Nulla id ultrices nunc. Nulla ornare in risus ac mollis. In sodales tortor ac dolor egestas dignissim. Morbi ac iaculis sapien. Maecenas finibus sollicitudin ligula sed efficitur.&lt;/p&gt;
+
+&lt;h5 id=&quot;heading-h5&quot;&gt;Heading H5&lt;/h5&gt;
+
+&lt;p&gt;Fusce commodo sit amet orci et pulvinar. Aenean interdum urna sit amet tempor lobortis. Nulla tristique, urna a condimentum suscipit, odio erat rutrum diam, nec convallis massa nisl a mi. Phasellus in lobortis erat. In ut odio sit amet sapien consectetur dignissim. In feugiat luctus massa, at fermentum sem sagittis id. Nam fermentum eu purus ut ultricies. Maecenas vitae libero quis magna maximus pretium. Etiam tempor lectus ante, sed maximus tortor suscipit sit amet. Vestibulum pharetra, magna a varius pellentesque, lectus magna scelerisque nulla, non faucibus sapien sapien a lorem. Mauris vel elit id orci congue luctus ac vitae ante. Nulla vehicula magna augue, eget dapibus dui consectetur sit amet.&lt;/p&gt;
+
+&lt;h6 id=&quot;heading-h6&quot;&gt;Heading H6&lt;/h6&gt;
+
+&lt;p&gt;Integer a purus vel lorem faucibus sollicitudin. Pellentesque ullamcorper massa sed finibus dictum. Cras aliquet congue convallis. Proin ornare, velit quis consequat viverra, risus tellus dictum nunc, a scelerisque est ex dictum est. Aliquam eleifend massa non tellus posuere feugiat. Donec id convallis sem. In risus lacus, accumsan sit amet pellentesque vel, vulputate ut lectus. Suspendisse potenti.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fuck Yeah Github Integration Post</title>
+   <link href="http://AxOpus.github.io/lessons/2017/06/13/fuck-yeah-github-integration-post"/>
+   <updated>2017-06-13T00:00:00+01:00</updated>
+   <id>http://AxOpus.github.io/lessons/2017/06/13/fuck-yeah-github-integration-post</id>
+   <content type="html">
+&lt;h2 id=&quot;github-h2&quot;&gt;Github H2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at volutpat ante. Nulla est arcu, luctus quis tortor venenatis, finibus vestibulum urna. Sed et lacus sed nulla dapibus aliquam varius vel eros. Aenean non blandit justo, ac lobortis est. Nullam ac elit at diam facilisis venenatis vitae vitae ex. Mauris mauris turpis, feugiat non tellus in, sagittis ultrices libero. Sed tristique neque ullamcorper, maximus justo sed, dictum ipsum. Quisque ut elit in eros molestie tempor non ut orci. Sed vulputate, ligula at gravida malesuada, mi quam dictum turpis, eu porta erat urna nec quam. Duis iaculis gravida urna ut pellentesque. Integer a nisi ut leo ornare ultricies at sed neque. Suspendisse potenti. Suspendisse sem lorem, cursus vel condimentum et, dapibus in lectus. Sed vestibulum turpis et ante tristique sollicitudin. Ut ornare malesuada diam, non sollicitudin metus vulputate non.&lt;/p&gt;
+
+&lt;p&gt;This is an unordered list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an ordered list:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a table:&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;#&lt;/th&gt;
+        &lt;th&gt;First Name&lt;/th&gt;
+        &lt;th&gt;Last Name&lt;/th&gt;
+        &lt;th&gt;Username&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;John&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Ghost&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;Jim&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Toast&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;Peter&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Roast&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;caption&gt;Table 1: A Table&lt;/caption&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is an image:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/main_man.jpg&quot; class=&quot;center-block img-responsive&quot; alt=&quot;A handsome man&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-center&quot;&gt;Image 1. A handsome man&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Adding hyperlinks is &lt;a href=&quot;https://www.google.com&quot;&gt;easy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As is adding block quotes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam pulvinar vel augue in imperdiet. Duis pulvinar et nisi non auctor. Praesent a tristique ipsum, non viverra leo. Etiam et pellentesque velit, ac eleifend massa. Nullam et ligula quis ante euismod vulputate. Fusce pharetra velit vel fermentum vestibulum. Suspendisse in finibus erat. Integer sit amet nibh sed elit elementum pretium sed dignissim erat. Nulla convallis libero ut sodales efficitur. Mauris nisl quam, ornare quis ligula in, blandit placerat dolor. Vivamus id egestas nisi. Aliquam iaculis iaculis purus, ac interdum ligula lacinia in. Nullam metus diam, fermentum id est sit amet, rhoncus tincidunt diam. Morbi tincidunt erat sem, scelerisque ultricies velit accumsan in.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Adding YouTube videos is easy:&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 text-center&quot;&gt;
+  &lt;iframe id=&quot;ytplayer&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&amp;amp;origin=http://example.com&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;heading-h3&quot;&gt;Heading H3&lt;/h3&gt;
+
+&lt;p&gt;Nullam ultrices felis eget mattis eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eget venenatis lectus. Suspendisse justo est, laoreet quis fermentum vel, tincidunt in neque. Suspendisse elementum, ante quis finibus bibendum, dolor magna vestibulum ipsum, eu finibus quam massa at erat. Vivamus sit amet ante mauris. Aliquam vitae arcu eleifend, venenatis tellus sed, suscipit felis. Sed dictum commodo aliquam. Praesent vel semper tellus.&lt;/p&gt;
+
+&lt;h4 id=&quot;heading-h4&quot;&gt;Heading H4&lt;/h4&gt;
+
+&lt;p&gt;Nam posuere, nisl et vulputate mattis, leo eros tincidunt dui, et vulputate lorem nulla in nibh. Nullam magna lorem, consequat ac rhoncus quis, porttitor nec sem. Proin eleifend, justo ut vulputate ultrices, sem felis rhoncus enim, sit amet gravida purus urna eu turpis. Nulla id ultrices nunc. Nulla ornare in risus ac mollis. In sodales tortor ac dolor egestas dignissim. Morbi ac iaculis sapien. Maecenas finibus sollicitudin ligula sed efficitur.&lt;/p&gt;
+
+&lt;h5 id=&quot;heading-h5&quot;&gt;Heading H5&lt;/h5&gt;
+
+&lt;p&gt;Fusce commodo sit amet orci et pulvinar. Aenean interdum urna sit amet tempor lobortis. Nulla tristique, urna a condimentum suscipit, odio erat rutrum diam, nec convallis massa nisl a mi. Phasellus in lobortis erat. In ut odio sit amet sapien consectetur dignissim. In feugiat luctus massa, at fermentum sem sagittis id. Nam fermentum eu purus ut ultricies. Maecenas vitae libero quis magna maximus pretium. Etiam tempor lectus ante, sed maximus tortor suscipit sit amet. Vestibulum pharetra, magna a varius pellentesque, lectus magna scelerisque nulla, non faucibus sapien sapien a lorem. Mauris vel elit id orci congue luctus ac vitae ante. Nulla vehicula magna augue, eget dapibus dui consectetur sit amet.&lt;/p&gt;
+
+&lt;h6 id=&quot;heading-h6&quot;&gt;Heading H6&lt;/h6&gt;
+
+&lt;p&gt;Integer a purus vel lorem faucibus sollicitudin. Pellentesque ullamcorper massa sed finibus dictum. Cras aliquet congue convallis. Proin ornare, velit quis consequat viverra, risus tellus dictum nunc, a scelerisque est ex dictum est. Aliquam eleifend massa non tellus posuere feugiat. Donec id convallis sem. In risus lacus, accumsan sit amet pellentesque vel, vulputate ut lectus. Suspendisse potenti.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Danny Post</title>
+   <link href="http://AxOpus.github.io/lessons/2017/06/13/danny-post"/>
+   <updated>2017-06-13T00:00:00+01:00</updated>
+   <id>http://AxOpus.github.io/lessons/2017/06/13/danny-post</id>
+   <content type="html">
+&lt;h2 id=&quot;alasdair-james-dalgarno-h2&quot;&gt;Alasdair James Dalgarno H2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at volutpat ante. Nulla est arcu, luctus quis tortor venenatis, finibus vestibulum urna. Sed et lacus sed nulla dapibus aliquam varius vel eros. Aenean non blandit justo, ac lobortis est. Nullam ac elit at diam facilisis venenatis vitae vitae ex. Mauris mauris turpis, feugiat non tellus in, sagittis ultrices libero. Sed tristique neque ullamcorper, maximus justo sed, dictum ipsum. Quisque ut elit in eros molestie tempor non ut orci. Sed vulputate, ligula at gravida malesuada, mi quam dictum turpis, eu porta erat urna nec quam. Duis iaculis gravida urna ut pellentesque. Integer a nisi ut leo ornare ultricies at sed neque. Suspendisse potenti. Suspendisse sem lorem, cursus vel condimentum et, dapibus in lectus. Sed vestibulum turpis et ante tristique sollicitudin. Ut ornare malesuada diam, non sollicitudin metus vulputate non.&lt;/p&gt;
+
+&lt;p&gt;This is an unordered list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an ordered list:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a table:&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;#&lt;/th&gt;
+        &lt;th&gt;First Name&lt;/th&gt;
+        &lt;th&gt;Last Name&lt;/th&gt;
+        &lt;th&gt;Username&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;John&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Ghost&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;Jim&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Toast&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;Peter&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Roast&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;caption&gt;Table 1: A Table&lt;/caption&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is an image:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/main_man.jpg&quot; class=&quot;center-block img-responsive&quot; alt=&quot;A handsome man&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-center&quot;&gt;Image 1. A handsome man&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Adding hyperlinks is &lt;a href=&quot;https://www.google.com&quot;&gt;easy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As is adding block quotes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam pulvinar vel augue in imperdiet. Duis pulvinar et nisi non auctor. Praesent a tristique ipsum, non viverra leo. Etiam et pellentesque velit, ac eleifend massa. Nullam et ligula quis ante euismod vulputate. Fusce pharetra velit vel fermentum vestibulum. Suspendisse in finibus erat. Integer sit amet nibh sed elit elementum pretium sed dignissim erat. Nulla convallis libero ut sodales efficitur. Mauris nisl quam, ornare quis ligula in, blandit placerat dolor. Vivamus id egestas nisi. Aliquam iaculis iaculis purus, ac interdum ligula lacinia in. Nullam metus diam, fermentum id est sit amet, rhoncus tincidunt diam. Morbi tincidunt erat sem, scelerisque ultricies velit accumsan in.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Adding YouTube videos is easy:&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 text-center&quot;&gt;
+  &lt;iframe id=&quot;ytplayer&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&amp;amp;origin=http://example.com&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;heading-h3&quot;&gt;Heading H3&lt;/h3&gt;
+
+&lt;p&gt;Nullam ultrices felis eget mattis eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eget venenatis lectus. Suspendisse justo est, laoreet quis fermentum vel, tincidunt in neque. Suspendisse elementum, ante quis finibus bibendum, dolor magna vestibulum ipsum, eu finibus quam massa at erat. Vivamus sit amet ante mauris. Aliquam vitae arcu eleifend, venenatis tellus sed, suscipit felis. Sed dictum commodo aliquam. Praesent vel semper tellus.&lt;/p&gt;
+
+&lt;h4 id=&quot;heading-h4&quot;&gt;Heading H4&lt;/h4&gt;
+
+&lt;p&gt;Nam posuere, nisl et vulputate mattis, leo eros tincidunt dui, et vulputate lorem nulla in nibh. Nullam magna lorem, consequat ac rhoncus quis, porttitor nec sem. Proin eleifend, justo ut vulputate ultrices, sem felis rhoncus enim, sit amet gravida purus urna eu turpis. Nulla id ultrices nunc. Nulla ornare in risus ac mollis. In sodales tortor ac dolor egestas dignissim. Morbi ac iaculis sapien. Maecenas finibus sollicitudin ligula sed efficitur.&lt;/p&gt;
+
+&lt;h5 id=&quot;heading-h5&quot;&gt;Heading H5&lt;/h5&gt;
+
+&lt;p&gt;Fusce commodo sit amet orci et pulvinar. Aenean interdum urna sit amet tempor lobortis. Nulla tristique, urna a condimentum suscipit, odio erat rutrum diam, nec convallis massa nisl a mi. Phasellus in lobortis erat. In ut odio sit amet sapien consectetur dignissim. In feugiat luctus massa, at fermentum sem sagittis id. Nam fermentum eu purus ut ultricies. Maecenas vitae libero quis magna maximus pretium. Etiam tempor lectus ante, sed maximus tortor suscipit sit amet. Vestibulum pharetra, magna a varius pellentesque, lectus magna scelerisque nulla, non faucibus sapien sapien a lorem. Mauris vel elit id orci congue luctus ac vitae ante. Nulla vehicula magna augue, eget dapibus dui consectetur sit amet.&lt;/p&gt;
+
+&lt;h6 id=&quot;heading-h6&quot;&gt;Heading H6&lt;/h6&gt;
+
+&lt;p&gt;Integer a purus vel lorem faucibus sollicitudin. Pellentesque ullamcorper massa sed finibus dictum. Cras aliquet congue convallis. Proin ornare, velit quis consequat viverra, risus tellus dictum nunc, a scelerisque est ex dictum est. Aliquam eleifend massa non tellus posuere feugiat. Donec id convallis sem. In risus lacus, accumsan sit amet pellentesque vel, vulputate ut lectus. Suspendisse potenti.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Test Post</title>
+   <link href="http://AxOpus.github.io/lessons/2017/06/12/test-post"/>
+   <updated>2017-06-12T00:00:00+01:00</updated>
+   <id>http://AxOpus.github.io/lessons/2017/06/12/test-post</id>
+   <content type="html">
+&lt;h2 id=&quot;heading-h2&quot;&gt;Heading H2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at volutpat ante. Nulla est arcu, luctus quis tortor venenatis, finibus vestibulum urna. Sed et lacus sed nulla dapibus aliquam varius vel eros. Aenean non blandit justo, ac lobortis est. Nullam ac elit at diam facilisis venenatis vitae vitae ex. Mauris mauris turpis, feugiat non tellus in, sagittis ultrices libero. Sed tristique neque ullamcorper, maximus justo sed, dictum ipsum. Quisque ut elit in eros molestie tempor non ut orci. Sed vulputate, ligula at gravida malesuada, mi quam dictum turpis, eu porta erat urna nec quam. Duis iaculis gravida urna ut pellentesque. Integer a nisi ut leo ornare ultricies at sed neque. Suspendisse potenti. Suspendisse sem lorem, cursus vel condimentum et, dapibus in lectus. Sed vestibulum turpis et ante tristique sollicitudin. Ut ornare malesuada diam, non sollicitudin metus vulputate non.&lt;/p&gt;
+
+&lt;p&gt;This is an unordered list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an ordered list:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a table:&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;#&lt;/th&gt;
+        &lt;th&gt;First Name&lt;/th&gt;
+        &lt;th&gt;Last Name&lt;/th&gt;
+        &lt;th&gt;Username&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;John&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Ghost&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;Jim&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Toast&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;Peter&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;Roast&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;caption&gt;Table 1: A Table&lt;/caption&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is an image:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/main_man.jpg&quot; class=&quot;center-block img-responsive&quot; alt=&quot;A handsome man&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-center&quot;&gt;Image 1. A handsome man&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Adding hyperlinks is &lt;a href=&quot;https://www.google.com&quot;&gt;easy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As is adding block quotes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam pulvinar vel augue in imperdiet. Duis pulvinar et nisi non auctor. Praesent a tristique ipsum, non viverra leo. Etiam et pellentesque velit, ac eleifend massa. Nullam et ligula quis ante euismod vulputate. Fusce pharetra velit vel fermentum vestibulum. Suspendisse in finibus erat. Integer sit amet nibh sed elit elementum pretium sed dignissim erat. Nulla convallis libero ut sodales efficitur. Mauris nisl quam, ornare quis ligula in, blandit placerat dolor. Vivamus id egestas nisi. Aliquam iaculis iaculis purus, ac interdum ligula lacinia in. Nullam metus diam, fermentum id est sit amet, rhoncus tincidunt diam. Morbi tincidunt erat sem, scelerisque ultricies velit accumsan in.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Adding YouTube videos is easy:&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 text-center&quot;&gt;
+  &lt;iframe id=&quot;ytplayer&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&amp;amp;origin=http://example.com&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;heading-h3&quot;&gt;Heading H3&lt;/h3&gt;
+
+&lt;p&gt;Nullam ultrices felis eget mattis eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eget venenatis lectus. Suspendisse justo est, laoreet quis fermentum vel, tincidunt in neque. Suspendisse elementum, ante quis finibus bibendum, dolor magna vestibulum ipsum, eu finibus quam massa at erat. Vivamus sit amet ante mauris. Aliquam vitae arcu eleifend, venenatis tellus sed, suscipit felis. Sed dictum commodo aliquam. Praesent vel semper tellus.&lt;/p&gt;
+
+&lt;h4 id=&quot;heading-h4&quot;&gt;Heading H4&lt;/h4&gt;
+
+&lt;p&gt;Nam posuere, nisl et vulputate mattis, leo eros tincidunt dui, et vulputate lorem nulla in nibh. Nullam magna lorem, consequat ac rhoncus quis, porttitor nec sem. Proin eleifend, justo ut vulputate ultrices, sem felis rhoncus enim, sit amet gravida purus urna eu turpis. Nulla id ultrices nunc. Nulla ornare in risus ac mollis. In sodales tortor ac dolor egestas dignissim. Morbi ac iaculis sapien. Maecenas finibus sollicitudin ligula sed efficitur.&lt;/p&gt;
+
+&lt;h5 id=&quot;heading-h5&quot;&gt;Heading H5&lt;/h5&gt;
+
+&lt;p&gt;Fusce commodo sit amet orci et pulvinar. Aenean interdum urna sit amet tempor lobortis. Nulla tristique, urna a condimentum suscipit, odio erat rutrum diam, nec convallis massa nisl a mi. Phasellus in lobortis erat. In ut odio sit amet sapien consectetur dignissim. In feugiat luctus massa, at fermentum sem sagittis id. Nam fermentum eu purus ut ultricies. Maecenas vitae libero quis magna maximus pretium. Etiam tempor lectus ante, sed maximus tortor suscipit sit amet. Vestibulum pharetra, magna a varius pellentesque, lectus magna scelerisque nulla, non faucibus sapien sapien a lorem. Mauris vel elit id orci congue luctus ac vitae ante. Nulla vehicula magna augue, eget dapibus dui consectetur sit amet.&lt;/p&gt;
+
+&lt;h6 id=&quot;heading-h6&quot;&gt;Heading H6&lt;/h6&gt;
+
+&lt;p&gt;Integer a purus vel lorem faucibus sollicitudin. Pellentesque ullamcorper massa sed finibus dictum. Cras aliquet congue convallis. Proin ornare, velit quis consequat viverra, risus tellus dictum nunc, a scelerisque est ex dictum est. Aliquam eleifend massa non tellus posuere feugiat. Donec id convallis sem. In risus lacus, accumsan sit amet pellentesque vel, vulputate ut lectus. Suspendisse potenti.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
